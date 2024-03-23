@@ -16,4 +16,5 @@ router.post('/contactUs_data',homeController.contactUs_data)
 router.use('/client',require('./client'));//controll all user requestsy
 //for any further routes access from here
 router.use('/lawyer',require('./lawyer')); 
+router.use('/judge',require('./judge')); 
 module.exports = router;
